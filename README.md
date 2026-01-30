@@ -29,3 +29,11 @@ Install the required dependencies:
 
 ```bash
 pip install torch diffusers transformers accelerate safetensors
+
+## How It Works
+1. Loads a pre-trained Stable Diffusion SD-Turbo model
+2. Accepts a text prompt from the user
+3. Runs inference using GPU/CPU
+4. Saves the generated image locally
+
+
